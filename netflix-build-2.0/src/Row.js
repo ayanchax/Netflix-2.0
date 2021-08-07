@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from './axios';
 import { baseURL } from "./util"
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 import "./Row.css"
 function Row({ title, url, isLargeRow, isRowDisplayed }) {
@@ -32,7 +32,7 @@ function Row({ title, url, isLargeRow, isRowDisplayed }) {
                 {/* several row__poster(s) */}
                 {videos?.map((video) => (
                      
-                    <img lazy={true}
+                    <img 
                         onError={addDefaultSrc}
                         title={video?.title || video?.name || video?.original_name}
                         className={`row__poster ${isLargeRow && "row__poster__large"}`}
