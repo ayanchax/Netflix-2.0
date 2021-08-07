@@ -4,7 +4,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* background-image: linear-gradient(to right, #262626, #3b3b8a); */
-    /* background-image: linear-gradient(to right, #3b3b8a, #111); */
+    background-image: linear-gradient(to right, #111, #111);
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;

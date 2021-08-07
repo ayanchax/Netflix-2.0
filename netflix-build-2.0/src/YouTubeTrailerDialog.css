@@ -1,0 +1,15 @@
+.youTubeTrailerDialog {
+    background-image: linear-gradient(to right, #111111, #111111);
+}
+
+.MuiPaper-root {
+    background-image: linear-gradient(to right, #111111, #111111)!important;
+}
+
+.youTubeTrailerDialog__trailerTitle {
+    color: #fff!important;
+}
+
+.youTubeTrailerDialog__trailerButton {
+    color: #fff!important;
+}

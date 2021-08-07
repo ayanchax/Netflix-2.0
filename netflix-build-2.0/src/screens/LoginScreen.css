@@ -1,0 +1,97 @@
+        .loginScreen {
+            color: #fff;
+            position: relative;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .loginScreen__background {
+            background: url("https://www.bajajfinservmarkets.in/content/dam/emistoremarketplace/index/20-02-2020/netflix/Netflix-Banner_1080x419.jpg?impolicy=pqmedium") center no-repeat;
+            background-size: cover;
+        }
+        
+        .loginScreen__logo {
+            position: fixed;
+            left: 0;
+            object-fit: contain;
+            padding-left: 20px;
+            padding-top: 20px;
+            width: 80px;
+        }
+        
+        .loginScreen__button {
+            outline: none;
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            background: #e50914;
+            font-weight: 500;
+        }
+        
+        .loginScreen__gradient {
+            width: 100%;
+            height: 100vh;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.4);
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8)0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)
+        }
+        
+        .loginScreen__body {
+            position: absolute;
+            top: 30%;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            z-index: 1;
+            color: white;
+            padding: 20px;
+        }
+        
+        .loginScreen__body>h1 {
+            font-size: 3.125rem;
+            margin-bottom: 20px;
+        }
+        
+        .loginScreen__body>h2 {
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        
+        .loginScreen__body>h3 {
+            font-size: 1.3rem;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+        
+        .loginScreen__input {
+            margin: 20px;
+        }
+        
+        .loginScreen__input>form>input {
+            padding: 10px;
+            outline: none;
+            height: 30px;
+            width: 30%;
+            border: none;
+            max-width: 600px;
+        }
+        
+        .loginScreen__input>form>button {
+            outline: none;
+            font-size: 1rem;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            background: #e50914;
+            font-weight: 600;
+            padding: 16px 22px;
+            text-transform: uppercase;
+        }

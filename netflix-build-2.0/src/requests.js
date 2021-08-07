@@ -83,6 +83,7 @@ export const content = [{
         url: requests.fetchTopRatedMovies,
         displayRow: false,
         largeRow: true,
+        slice: 0,
     },
 
     {
@@ -90,6 +91,7 @@ export const content = [{
         url: requests.fetchTrending,
         displayRow: true,
         largeRow: true,
+        slice: 20,
     },
 
     {
@@ -97,32 +99,37 @@ export const content = [{
         url: requests.fetchOriginals,
         displayRow: true,
         largeRow: true,
+        slice: 10
     },
 
     {
         title: "Popular in 2021",
         url: requests.fetchPopularMovies,
+        displayRow: true,
+        largeRow: true,
+        slice: 20,
+    },
+    {
+        title: "Adventure",
+        url: requests.fetchAdventureMovies,
         displayRow: false,
         largeRow: true,
+        slice: 20,
     },
     {
         title: "Adventure &amp; Action",
-        url: requests.fetchAdventureMovies,
+        url: requests.fetchActionMovies,
         displayRow: true,
         largeRow: true,
-    },
-    {
-        title: "Action",
-        url: requests.fetchActionMovies,
-        displayRow: false,
-        largeRow: true,
+        slice: 15,
     },
 
     {
         title: "Best in Animation",
         url: requests.fetchAnimationMovies,
-        displayRow: false,
+        displayRow: true,
         largeRow: true,
+        slice: 15,
     },
 
     {
@@ -130,6 +137,7 @@ export const content = [{
         url: requests.fetchComedyMovies,
         displayRow: true,
         largeRow: true,
+        slice: 15,
     },
 
     {
@@ -137,13 +145,15 @@ export const content = [{
         url: requests.fetchCrimeMovies,
         displayRow: true,
         largeRow: true,
+        slice: 18,
     },
 
     {
         title: "Drama",
         url: requests.fetchDramaMovies,
-        displayRow: false,
+        displayRow: true,
         largeRow: true,
+        slice: 10,
     },
 
     {
@@ -151,27 +161,31 @@ export const content = [{
         url: requests.fetchDocumentaries,
         displayRow: true,
         largeRow: true,
+        slice: 20,
     },
 
     {
         title: "Family Time",
         url: requests.fetchFamilyMovies,
-        displayRow: false,
+        displayRow: true,
         largeRow: true,
+        slice: 5,
     },
 
     {
         title: "Fantasy",
         url: requests.fetchFantasyMovies,
-        displayRow: false,
+        displayRow: true,
         largeRow: true,
+        slice: 5,
     },
 
     {
         title: "History",
         url: requests.fetchHistoryMovies,
-        displayRow: false,
+        displayRow: true,
         largeRow: true,
+        slice: 10,
     },
 
     {
@@ -179,21 +193,24 @@ export const content = [{
         url: requests.fetchHorrorMovies,
         displayRow: true,
         largeRow: true,
+        slice: 20,
     },
 
     {
         title: "Musical",
         url: requests.fetchMusicalMovies,
-        displayRow: false,
+        displayRow: true,
         largeRow: true,
+        slice: 5,
     },
 
 
     {
         title: "Mystery",
         url: requests.fetchMysteryMovies,
-        displayRow: false,
+        displayRow: true,
         largeRow: true,
+        slice: 10,
     },
 
     {
@@ -201,6 +218,7 @@ export const content = [{
         url: requests.fetchRomanceMovies,
         displayRow: true,
         largeRow: true,
+        slice: 20,
     },
 
     {
@@ -208,13 +226,15 @@ export const content = [{
         url: requests.fetchScienceFictionMovies,
         displayRow: true,
         largeRow: true,
+        slice: 10,
     },
 
     {
         title: "Just TV Things",
         url: requests.fetchTVMovies,
-        displayRow: false,
+        displayRow: true,
         largeRow: true,
+        slice: 10,
     },
 
     {
@@ -222,6 +242,7 @@ export const content = [{
         url: requests.fetchThrillerMovies,
         displayRow: true,
         largeRow: true,
+        slice: 20,
     },
 
     {
@@ -229,6 +250,7 @@ export const content = [{
         url: requests.fetchWarMovies,
         displayRow: true,
         largeRow: true,
+        slice: 10,
     },
 
     {
@@ -236,6 +258,7 @@ export const content = [{
         url: requests.fetchWesternMovies,
         displayRow: true,
         largeRow: true,
+        slice: 10,
     },
 ];
 
