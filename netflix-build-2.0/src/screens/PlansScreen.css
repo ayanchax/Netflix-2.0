@@ -1,0 +1,56 @@
+.plansScreen {
+    margin-top: 20px;
+}
+
+.plansScreen>h3 {
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
+
+.plansScreen__subscribePlan {
+    outline: none;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background: #e50914;
+    font-weight: 400;
+}
+
+.plansScreen__plan {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    opacity: 0.8;
+    border-bottom: 1px solid #282c2d;
+}
+
+.plansScreen__plan:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.plansScreen__planinfo>h6 {
+    color: grey
+}
+
+.plansScreen__plan>button.disabled {
+    pointer-events: none;
+    cursor: none;
+    opacity: 0.4;
+}
+
+.plansScreen__plan__disabled {
+    pointer-events: none;
+    cursor: none;
+    opacity: 0.4;
+}
+
+.plansScreen__renewalDate {
+    font-size: 1rem;
+    color: grey;
+    padding-bottom: 4px
+}

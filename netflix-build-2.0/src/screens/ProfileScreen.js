@@ -3,11 +3,11 @@ import "./ProfileScreen.css"
 import { useSelector } from 'react-redux'
 import { selectUser } from "../features/userSlice"
 import Nav from "../Nav"
-import { auth } from  "../firebase"
+import { auth } from "../firebase"
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useHistory } from "react-router-dom"
-import Footer from '../Footer'
+import PlansScreen from './PlansScreen'
 toast.configure();
 function ProfileScreen() {
     const user = useSelector(selectUser)
@@ -40,14 +40,14 @@ function ProfileScreen() {
                     <div className="profileScreen__details">
                         <h2>{user.email}</h2>
                         <div className="profileScreen__plans">
-<h3>Plans</h3>
+                            <PlansScreen/>
                             <button onClick={(e) => signOutUser(e)} className="profileScreen__signOut">Sign Out</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <Footer/>
+         
         </div>
     )
 }

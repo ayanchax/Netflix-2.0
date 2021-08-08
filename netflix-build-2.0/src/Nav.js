@@ -44,7 +44,7 @@ function Nav() {
                 <img onClick={(e) => history.push("/")} className="nav__logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix-Logo" />
                 <img onClick={(e) => history.push("profile")} className="nav__avatar" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/366be133850498.56ba69ac36858.png"
                     alt="Netflix-User-Avatar" />
-                <button onClick={(e) => signOutUser(e)} className="nav__button">Sign Out</button>
+                <button onClick={(e) => signOutUser(e)} className="nav__button hidden">Sign Out</button>
             </div>
 
         </div>
